@@ -1,8 +1,8 @@
 {
-	"name": "DelimitedText1",
+	"name": "inputDataset",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureBlobStorage1Linked",
+			"referenceName": "AzureBlobStorageLinkedService",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -15,25 +15,32 @@
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
+			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
 		"schema": [
 			{
+				"name": "FirstName",
 				"type": "String"
 			},
 			{
+				"name": "LastName",
 				"type": "String"
 			},
 			{
+				"name": "Street",
 				"type": "String"
 			},
 			{
+				"name": "City",
 				"type": "String"
 			},
 			{
+				"name": "State",
 				"type": "String"
 			},
 			{
+				"name": "Postcode",
 				"type": "String"
 			}
 		]

@@ -1,8 +1,8 @@
 {
-	"name": "DelimitedText2",
+	"name": "outputDataset",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureBlobStorage1Linked",
+			"referenceName": "AzureBlobStorageLinkedService",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
